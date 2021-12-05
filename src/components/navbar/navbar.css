@@ -1,2 +1,20 @@
 .navbar {
+  @apply container py-8 flex justify-between items-center;
+}
+
+.navbar__links {
+  @apply space-x-4 flex items-center text-primary;
+}
+
+.navbar__logo {
+  @apply w-16 h-4 mr-16;
+}
+
+.navbar__links__link,
+.navbar__buttons button {
+  @apply capitalize font-medium;
+  font-size: 18px;
+}
+.navbar__buttons {
+  @apply space-x-4;
 }

@@ -12,6 +12,12 @@ module.exports = {
   theme: {
     container: {
       center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        xl: '4rem',
+        '2xl': '6rem',
+      },
     },
 
     extend: {
@@ -23,6 +29,7 @@ module.exports = {
       backgroundColor: {
         transparent: 'transparent',
         primary: 'var(--color-bg-primary)',
+        secondary: 'var(--color-bg-secondary)',
       },
 
       textColor: {
