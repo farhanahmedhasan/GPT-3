@@ -9,9 +9,9 @@ import useDarkMode from '../../hooks/useDarkMode';
 const Navbar = () => {
   const [enabled, setIsEnabled] = useDarkMode();
   return (
-    <div>
+    <div className='flex justify-between items-center py-8 px-16'>
       <div>
-        <img className=' h-16' src={logo} alt='GPT-3' />
+        <img className='h-16 w-8' src={logo} alt='GPT-3' />
       </div>
     </div>
   );

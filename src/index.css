@@ -14,8 +14,10 @@
 
 .dark {
   --color-bg-primary: #040c18;
+  --text-primary: #fafafa;
 }
 
 .light {
   --color-bg-primary: #fafafa;
+  --text-primary: #040c18;
 }
