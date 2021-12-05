@@ -20,10 +20,6 @@ module.exports = {
         roboto: ['Roboto', 'sans-serif'],
       },
 
-      backgroundImage: {
-        'gradient-primary-dark': 'radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%)',
-      },
-
       backgroundColor: {
         transparent: 'transparent',
         primary: 'var(--color-bg-primary)',
