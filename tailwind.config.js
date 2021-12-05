@@ -1,5 +1,5 @@
 module.exports = {
-  mode: 'jit',
+  // mode: 'jit',
   purge: {
     content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
     options: {
@@ -9,11 +9,11 @@ module.exports = {
 
   darkMode: 'class',
 
-  container: {
-    center: true,
-  },
-
   theme: {
+    container: {
+      center: true,
+    },
+
     extend: {
       fontFamily: {
         manrope: ['Manrope', 'sans-serif'],
