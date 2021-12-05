@@ -2,8 +2,7 @@ import { Header } from './pages';
 
 function App() {
   return (
-    <div className='App'>
-      Yoooo
+    <div className='App bg-primary'>
       <Header />
     </div>
   );

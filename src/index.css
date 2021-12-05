@@ -11,3 +11,11 @@
   --font-family-man: 'Manrope', sans-serif;
   --font-family-rob: 'Roboto', sans-serif;
 }
+
+.dark {
+  --color-bg-primary: #040c18;
+}
+
+.light {
+  --color-bg-primary: #fafafa;
+}

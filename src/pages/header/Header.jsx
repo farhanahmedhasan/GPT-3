@@ -5,7 +5,6 @@ const Header = () => {
   return (
     <>
       <Navbar />
-      <div className='text-6xl font-manrope'>Header</div>
     </>
   );
 };
