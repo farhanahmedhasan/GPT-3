@@ -7,14 +7,48 @@
 }
 
 .navbar__logo {
-  @apply w-16 h-4 mr-16;
+  @apply w-16 h-4 md:mr-16;
 }
 
 .navbar__links__link,
 .navbar__buttons button {
+  @apply capitalize font-medium text-primary;
+  font-size: 18px;
+}
+.navbar__buttons__bar {
+  @apply mr-8 ml-8 md:mr-16 md:ml-0;
+}
+
+.navbar__links__link {
+  @apply hidden lg:block;
+}
+.navbar__buttons .sign {
+  @apply hidden md:block;
+}
+
+/*For mobile*/
+.navbar__menu {
+  @apply relative block lg:hidden;
+}
+
+.navbar__menu__links {
+  @apply absolute right-0 mt-4 text-right  bg-tertiary p-6 rounded-lg shadow-lg;
+  min-width: 230px;
+}
+
+.navbar__buttons {
+  @apply space-x-4;
+}
+
+.active {
+  @apply block lg:hidden;
+}
+
+.navbar__menu__buttons button {
   @apply capitalize font-medium;
   font-size: 18px;
 }
-.navbar__buttons {
-  @apply space-x-4;
+
+.navbar__menu__buttons {
+  @apply block md:hidden space-x-4;
 }
