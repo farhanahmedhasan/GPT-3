@@ -21,6 +21,10 @@ module.exports = {
     },
 
     extend: {
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+      },
+
       fontFamily: {
         manrope: ['Manrope', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],

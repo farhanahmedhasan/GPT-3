@@ -1,0 +1,7 @@
+.header-gradient-active {
+  background-image: var(--gradient-primary);
+}
+
+.header-gradient-deactive {
+  background-image: #fafafa;
+}

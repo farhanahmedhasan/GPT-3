@@ -10,10 +10,10 @@
 :root {
   --font-family-man: 'Manrope', sans-serif;
   --font-family-rob: 'Roboto', sans-serif;
-  --gradient-primary: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 }
 
 .dark {
+  --gradient-primary: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
   --color-bg-primary: #040c18;
   --color-bg-secondary: #ff4820;
   --color-bg-tertiary: #0a1629;
@@ -21,6 +21,7 @@
 }
 
 .light {
+  --gradient-primary: linear-gradient(circle at 3% 25%, #f1f1f1 0%, #f1f1f1 100%);
   --color-bg-primary: #fafafa;
   --color-bg-secondary: #ff4820;
   --color-bg-tertiary: #fff;
