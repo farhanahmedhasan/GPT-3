@@ -35,11 +35,14 @@ module.exports = {
         primary: 'var(--color-bg-primary)',
         secondary: 'var(--color-bg-secondary)',
         tertiary: 'var(--color-bg-tertiary)',
+        quaternary: 'var(--color-bg-quaternary)',
       },
 
       textColor: {
         transparent: 'transparent',
         primary: 'var(--text-primary)',
+        secondary: 'var(--text-secondary)',
+        tertiary: 'var(--text-tertiary)',
       },
     },
   },

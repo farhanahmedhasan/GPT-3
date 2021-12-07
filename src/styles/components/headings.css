@@ -1,0 +1,8 @@
+.gradient-text {
+  @apply bg-clip-text text-transparent;
+  background-image: var(--gradient-text);
+}
+
+.paragraph {
+  @apply font-normal text-secondary;
+}

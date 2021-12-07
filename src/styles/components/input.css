@@ -1,0 +1,6 @@
+.formControl {
+  @apply p-4 bg-tertiary outline-none;
+}
+.formControl::placeholder {
+  @apply text-tertiary;
+}

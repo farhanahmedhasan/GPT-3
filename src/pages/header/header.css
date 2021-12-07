@@ -1,7 +1,45 @@
-.header-gradient-active {
-  background-image: var(--gradient-primary);
+.hero {
+}
+.hero__textBox {
 }
 
-.header-gradient-deactive {
-  background-image: #fafafa;
+.hero__heading {
+  @apply text-6xl leading-snug font-extrabold;
+}
+
+.hero__para {
+  @apply text-lg;
+  margin-right: 28%;
+}
+
+.hero__contact input {
+  @apply rounded-tl rounded-bl;
+}
+.hero__contact button {
+  @apply rounded-br rounded-tr;
+}
+
+.hero__images {
+  @apply ml-2;
+}
+
+.hero__images div {
+  @apply relative;
+  width: 37px;
+  height: 37px;
+}
+
+.hero__images div span {
+  @apply absolute text-black font-bold;
+  left: -3px;
+  top: 11px;
+  font-size: 11px;
+}
+
+.hero__images img {
+  @apply -ml-2;
+}
+
+/*Right side Css*/
+.hero__ai {
 }

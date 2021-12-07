@@ -6,26 +6,36 @@
 
 @import './styles/components/headings.css';
 @import './styles/components/btn.css';
+@import './styles/components/input.css';
 
 :root {
   --font-family-man: 'Manrope', sans-serif;
   --font-family-rob: 'Roboto', sans-serif;
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
 }
 
 .dark {
   --gradient-primary: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
   --color-bg-primary: #040c18;
   --color-bg-secondary: #ff4820;
-  --color-bg-tertiary: #0a1629;
+  --color-bg-tertiary: #052d56;
+  --color-bg-quaternary: #052d56;
+
   --text-primary: #fafafa;
+  --text-secondary: #a8bccf;
+  --text-tertiary: #79a3cc;
 }
 
 .light {
   --gradient-primary: linear-gradient(circle at 3% 25%, #f1f1f1 0%, #f1f1f1 100%);
   --color-bg-primary: #fafafa;
   --color-bg-secondary: #ff4820;
-  --color-bg-tertiary: #fff;
+  --color-bg-tertiary: #ae67fa;
+  --color-bg-quaternary: #fff;
+
   --text-primary: #040c18;
+  --text-secondary: #0c365f;
+  --text-tertiary: #040c18;
 }
 
 .scale-up-center {
