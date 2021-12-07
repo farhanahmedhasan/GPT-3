@@ -6,12 +6,6 @@
   @apply space-x-4 flex items-center text-primary;
 }
 
-@media (max-width: 300px) {
-  .navbar__links {
-    @apply block;
-  }
-}
-
 .navbar__logo {
   @apply w-16 h-4 mr-8 md:mr-16;
 }
@@ -38,7 +32,7 @@
 }
 
 .navbar__menu__links {
-  @apply absolute right-0 mt-4 text-right  bg-tertiary p-6 rounded-lg shadow-lg;
+  @apply absolute right-0 mt-4 text-right  bg-primary p-6 rounded-lg shadow-lg;
   min-width: 230px;
 }
 
@@ -57,4 +51,16 @@
 
 .navbar__menu__buttons {
   @apply block md:hidden space-x-4;
+}
+
+@media (max-width: 420px) {
+  .navbar__buttons__bar {
+    @apply m-0;
+  }
+}
+
+@media (max-width: 300px) {
+  .navbar__links {
+    @apply block;
+  }
 }

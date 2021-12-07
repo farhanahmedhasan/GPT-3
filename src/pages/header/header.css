@@ -1,14 +1,9 @@
-.hero {
-}
-.hero__textBox {
-}
-
 .hero__heading {
-  @apply text-6xl leading-snug font-extrabold;
+  @apply text-3xl md:text-5xl xl:text-6xl leading-snug font-bold md:font-extrabold;
 }
 
 .hero__para {
-  @apply text-lg;
+  @apply text-base md:text-lg;
   margin-right: 28%;
 }
 
@@ -24,16 +19,17 @@
 }
 
 .hero__images div {
-  @apply relative;
+  @apply -ml-2 border-2 border-white;
+  border-radius: 50%;
   width: 37px;
   height: 37px;
+  background-color: #13ded2;
 }
 
-.hero__images div span {
-  @apply absolute text-black font-bold;
-  left: -3px;
-  top: 11px;
-  font-size: 11px;
+.hero__images div p {
+  @apply text-black font-bold text-center;
+  margin-top: 10px;
+  font-size: 9px;
 }
 
 .hero__images img {
@@ -41,5 +37,14 @@
 }
 
 /*Right side Css*/
-.hero__ai {
+@media (max-width: 768px) {
+  .hero__para {
+    @apply mr-0;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero__contact {
+    @apply flex-col;
+  }
 }
