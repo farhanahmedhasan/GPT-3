@@ -36,6 +36,7 @@ module.exports = {
         secondary: 'var(--color-bg-secondary)',
         tertiary: 'var(--color-bg-tertiary)',
         quaternary: 'var(--color-bg-quaternary)',
+        quinary: 'var(--color-bg-quinary)',
       },
 
       textColor: {

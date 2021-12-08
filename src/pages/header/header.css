@@ -1,5 +1,6 @@
 .hero__heading {
-  @apply text-3xl md:text-5xl xl:text-6xl leading-snug font-bold md:font-extrabold;
+  @apply text-3xl md:text-5xl xl:text-6xl font-bold md:font-extrabold;
+  line-height: 1.5 !important;
 }
 
 .hero__para {

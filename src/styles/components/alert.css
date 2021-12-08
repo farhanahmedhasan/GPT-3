@@ -1,0 +1,13 @@
+.alert {
+  @apply p-4 bg-green-800 text-center font-bold text-white fixed bottom-4 left-1/2 transform -translate-x-1/2 transition-all;
+  width: 440px;
+}
+
+@media screen and (max-width: 440px) {
+  .alert {
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 16px 8px;
+  }
+}

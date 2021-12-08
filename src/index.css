@@ -7,6 +7,7 @@
 @import './styles/components/headings.css';
 @import './styles/components/btn.css';
 @import './styles/components/input.css';
+@import './styles/components/alert.css';
 
 :root {
   --font-family-man: 'Manrope', sans-serif;
@@ -20,6 +21,7 @@
   --color-bg-secondary: #ff4820;
   --color-bg-tertiary: #052d56;
   --color-bg-quaternary: #052d56;
+  --color-bg-quinary: #040c18;
 
   --text-primary: #fafafa;
   --text-secondary: #a8bccf;
@@ -32,6 +34,7 @@
   --color-bg-secondary: #ff4820;
   --color-bg-tertiary: #ae67fa;
   --color-bg-quaternary: #fff;
+  --color-bg-quinary: #fff;
 
   --text-primary: #040c18;
   --text-secondary: #0c365f;
