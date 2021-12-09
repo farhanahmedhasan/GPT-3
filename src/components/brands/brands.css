@@ -1,8 +1,11 @@
 .brands {
-  @apply container py-8 bg-quinary flex flex-wrap items-center justify-center space-y-4 md:space-y-0 space-x-4 md:space-x-12;
+  @apply py-16 bg-quinary;
+}
+.brands__box {
+  @apply container flex flex-wrap items-center justify-center space-y-4 md:space-y-0 space-x-4 md:space-x-12;
 }
 
-.brands div {
+.brands__box div {
   @apply flex flex-1 items-center justify-center;
   min-width: 80px;
   max-width: 120px;

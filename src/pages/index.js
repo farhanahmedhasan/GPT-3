@@ -1,1 +1,2 @@
 export { default as Header } from './header/Header';
+export { default as WhatIsGPT3 } from './whatisGPT3/WhatIsGPT3';

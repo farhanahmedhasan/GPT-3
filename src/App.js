@@ -1,5 +1,5 @@
-import { Header } from './pages';
-import Brands from './components/brands/Brands';
+import { Header, WhatIsGPT3 } from './pages';
+import { Brands } from './components';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <Header />
       </section>
       <Brands />
+      <WhatIsGPT3 />
     </div>
   );
 }

@@ -23,6 +23,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'gradient-primary': 'var(--gradient-primary)',
+        'gradient-secondary': 'var(--gradient-secondary)',
       },
 
       fontFamily: {
@@ -44,6 +45,10 @@ module.exports = {
         primary: 'var(--text-primary)',
         secondary: 'var(--text-secondary)',
         tertiary: 'var(--text-tertiary)',
+      },
+
+      margin: {
+        extra: 'var(--margin-extra)',
       },
     },
   },

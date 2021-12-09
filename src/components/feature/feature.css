@@ -1,0 +1,6 @@
+.line {
+  @apply mb-4;
+  height: 3px;
+  width: 38px;
+  background-image: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+}
