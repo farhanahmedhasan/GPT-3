@@ -7,7 +7,7 @@ export const navData = [
   {
     id: 2,
     name: 'What is GPT?',
-    url: '#wgpt3',
+    url: '#whatGPT3',
   },
   {
     id: 3,

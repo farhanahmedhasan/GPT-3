@@ -1,0 +1,38 @@
+.features {
+  @apply container py-20 px-2 lg:px-0 grid gap-4 items-start lg:grid-cols-2;
+}
+
+.features__textBox {
+}
+
+.features__textBox p {
+  @apply mb-16 lg:mb-0;
+  color: var(--text-common);
+}
+
+.features__title {
+  @apply text-2xl sm:text-3xl md:text-4xl font-extrabold mb-8 lg:mb-12 lg:mr-12 xl:mr-40;
+  line-height: 45px;
+}
+
+.features__featureItems {
+  @apply space-y-8 xl:space-y-12 sm:flex flex-wrap justify-between items-baseline md:flex-none;
+}
+
+.features__featureItem {
+  @apply flex flex-col md:flex-row md:items-center w-full sm:w-5/12 md:w-full;
+}
+
+.features__featureItems h3 {
+  @apply font-bold text-lg sm:max-w-none md:w-44;
+}
+
+.features__featureItems p {
+  @apply text-secondary ml-0 md:ml-6 xl:ml-24;
+}
+
+@media screen and (max-width: 640px) {
+  .features__title {
+    line-height: 28px;
+  }
+}

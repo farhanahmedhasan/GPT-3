@@ -9,6 +9,10 @@
 @import './styles/components/input.css';
 @import './styles/components/alert.css';
 
+* {
+  scroll-behavior: smooth;
+}
+
 :root {
   --font-family-man: 'Manrope', sans-serif;
   --font-family-rob: 'Roboto', sans-serif;

@@ -3,7 +3,7 @@ import Feature from '../../components/feature/Feature';
 
 const WhatIsGPT3 = () => {
   return (
-    <section className='gpt3'>
+    <section className='gpt3' id='whatGPT3'>
       <div className='gpt3__whatGpt3'>
         <Feature
           classTitileBox='gpt3__whatGpt3__title'
