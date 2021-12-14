@@ -1,0 +1,25 @@
+.cta {
+  @apply container py-24;
+}
+
+.cta__wrapper {
+  @apply py-6 px-6 md:py-12 md:px-8 rounded-lg flex flex-col lg:flex-row justify-between lg:items-center;
+  background-image: var(--gradient-text);
+}
+
+.cta__content {
+  @apply text-black mb-4 lg:mb-0;
+}
+
+.cta__content p {
+  @apply text-xs mb-2;
+}
+.cta__content h3 {
+  @apply text-xl lg:text-2xl font-bold;
+}
+.cta__button {
+}
+
+.btn {
+  @apply hover:text-secondary;
+}

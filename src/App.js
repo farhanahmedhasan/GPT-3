@@ -1,5 +1,5 @@
 import { Header, WhatIsGPT3, Features, Possibility } from './pages';
-import { Brands } from './components';
+import { Brands, CTA } from './components';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <WhatIsGPT3 />
       <Features />
       <Possibility />
+      <CTA />
     </div>
   );
 }
