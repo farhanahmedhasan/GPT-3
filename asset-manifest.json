@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/GPT-3/static/css/main.87f4680f.chunk.css",
-    "main.js": "/GPT-3/static/js/main.72fad36f.chunk.js",
-    "main.js.map": "/GPT-3/static/js/main.72fad36f.chunk.js.map",
+    "main.css": "/GPT-3/static/css/main.2a1a90cf.chunk.css",
+    "main.js": "/GPT-3/static/js/main.adf3b078.chunk.js",
+    "main.js.map": "/GPT-3/static/js/main.adf3b078.chunk.js.map",
     "runtime-main.js": "/GPT-3/static/js/runtime-main.7a116fc5.js",
     "runtime-main.js.map": "/GPT-3/static/js/runtime-main.7a116fc5.js.map",
     "static/js/2.8829998d.chunk.js": "/GPT-3/static/js/2.8829998d.chunk.js",
     "static/js/2.8829998d.chunk.js.map": "/GPT-3/static/js/2.8829998d.chunk.js.map",
     "index.html": "/GPT-3/index.html",
-    "static/css/main.87f4680f.chunk.css.map": "/GPT-3/static/css/main.87f4680f.chunk.css.map",
+    "static/css/main.2a1a90cf.chunk.css.map": "/GPT-3/static/css/main.2a1a90cf.chunk.css.map",
     "static/js/2.8829998d.chunk.js.LICENSE.txt": "/GPT-3/static/js/2.8829998d.chunk.js.LICENSE.txt",
     "static/media/Feature_Image.e685de02.png": "/GPT-3/static/media/Feature_Image.e685de02.png",
     "static/media/ai_hero.b8015c55.png": "/GPT-3/static/media/ai_hero.b8015c55.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.7a116fc5.js",
     "static/js/2.8829998d.chunk.js",
-    "static/css/main.87f4680f.chunk.css",
-    "static/js/main.72fad36f.chunk.js"
+    "static/css/main.2a1a90cf.chunk.css",
+    "static/js/main.adf3b078.chunk.js"
   ]
 }
