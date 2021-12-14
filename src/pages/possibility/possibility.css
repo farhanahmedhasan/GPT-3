@@ -1,0 +1,30 @@
+.possibility {
+  @apply container pb-12 grid gap-x-12 grid-cols-1 lg:grid-cols-2;
+}
+
+.possibility__image {
+  @apply order-2 lg:order-1;
+}
+
+.possibility__description {
+  @apply order-1 lg:order-2 mb-12 lg:mb-8 place-self-end;
+}
+.possibility__description:last-child {
+  color: var(--text-common);
+}
+.possibility__description h2 {
+  @apply text-2xl sm:text-4xl font-bold my-8;
+  line-height: 45px;
+}
+.possibility__description p {
+  @apply text-tertiary mb-4;
+}
+.possibility__description--early {
+  color: var(--text-common-2);
+}
+
+@media screen and (max-width: 640px) {
+  .possibility__description h2 {
+    @apply leading-8;
+  }
+}

@@ -29,13 +29,13 @@ const WhatIsGPT3 = () => {
         <div>
           <Feature
             title='Knowledgebase'
-            details='At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b'
+            details='At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments '
           />
         </div>
         <div>
           <Feature
             title='Education'
-            details='At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b'
+            details='At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments '
           />
         </div>
       </div>

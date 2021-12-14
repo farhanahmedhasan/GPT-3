@@ -18,6 +18,7 @@
   --font-family-rob: 'Roboto', sans-serif;
   --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
   --text-common: #ff8a71;
+  --text-common-2: #71e5ff;
 }
 
 .dark {
