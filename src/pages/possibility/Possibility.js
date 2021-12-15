@@ -9,7 +9,7 @@ const Possibility = () => {
     <>
       <section className='possibility' id='possibility'>
         <div className='possibility__image'>
-          <LazyLoad offset={300} placeholder={<img src={BlurImage} alt='placeholder' />}>
+          <LazyLoad offset={300} placeholder={<img className='w-full' src={BlurImage} alt='placeholder' />}>
             <img src={possibility} alt='possibility' />
           </LazyLoad>
         </div>
