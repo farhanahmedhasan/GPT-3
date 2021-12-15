@@ -1,12 +1,17 @@
+import LazyLoad from 'react-lazyload';
+
 import './possibility.css';
 import possibility from '../../assests/images/Feature_Image.png';
+import BlurImage from '../../assests/images/placeholder.jpg';
 
 const Possibility = () => {
   return (
     <>
       <section className='possibility' id='possibility'>
         <div className='possibility__image'>
-          <img src={possibility} alt='possibility' />
+          <LazyLoad offset={300} placeholder={<img src={BlurImage} alt='placeholder' />}>
+            <img src={possibility} alt='possibility' />
+          </LazyLoad>
         </div>
 
         <div className='possibility__description'>
