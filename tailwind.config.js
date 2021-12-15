@@ -47,6 +47,11 @@ module.exports = {
         tertiary: 'var(--text-tertiary)',
       },
 
+      borderColor: {
+        transparent: 'transparent',
+        primary: 'var(--text-primary)',
+      },
+
       margin: {
         extra: 'var(--margin-extra)',
       },
