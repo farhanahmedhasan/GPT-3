@@ -1,5 +1,5 @@
 import { Header, WhatIsGPT3, Features, Possibility, Blog, Footer } from './pages';
-import { Brands, CTA } from './components';
+import { Brands, CTA, ScrollToTop } from './components';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <CTA />
       <Blog />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }
