@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GPT-3/static/css/main.e164b719.chunk.css",
-    "main.js": "/GPT-3/static/js/main.1dff1427.chunk.js",
-    "main.js.map": "/GPT-3/static/js/main.1dff1427.chunk.js.map",
+    "main.js": "/GPT-3/static/js/main.498a7863.chunk.js",
+    "main.js.map": "/GPT-3/static/js/main.498a7863.chunk.js.map",
     "runtime-main.js": "/GPT-3/static/js/runtime-main.7a116fc5.js",
     "runtime-main.js.map": "/GPT-3/static/js/runtime-main.7a116fc5.js.map",
-    "static/js/2.8cf605fb.chunk.js": "/GPT-3/static/js/2.8cf605fb.chunk.js",
-    "static/js/2.8cf605fb.chunk.js.map": "/GPT-3/static/js/2.8cf605fb.chunk.js.map",
+    "static/js/2.1fa0bb31.chunk.js": "/GPT-3/static/js/2.1fa0bb31.chunk.js",
+    "static/js/2.1fa0bb31.chunk.js.map": "/GPT-3/static/js/2.1fa0bb31.chunk.js.map",
     "index.html": "/GPT-3/index.html",
     "static/css/main.e164b719.chunk.css.map": "/GPT-3/static/css/main.e164b719.chunk.css.map",
-    "static/js/2.8cf605fb.chunk.js.LICENSE.txt": "/GPT-3/static/js/2.8cf605fb.chunk.js.LICENSE.txt",
+    "static/js/2.1fa0bb31.chunk.js.LICENSE.txt": "/GPT-3/static/js/2.1fa0bb31.chunk.js.LICENSE.txt",
     "static/media/Feature_Image.e685de02.png": "/GPT-3/static/media/Feature_Image.e685de02.png",
     "static/media/ai_hero.b8015c55.png": "/GPT-3/static/media/ai_hero.b8015c55.png",
     "static/media/atlassian.b300970d.png": "/GPT-3/static/media/atlassian.b300970d.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7a116fc5.js",
-    "static/js/2.8cf605fb.chunk.js",
+    "static/js/2.1fa0bb31.chunk.js",
     "static/css/main.e164b719.chunk.css",
-    "static/js/main.1dff1427.chunk.js"
+    "static/js/main.498a7863.chunk.js"
   ]
 }
