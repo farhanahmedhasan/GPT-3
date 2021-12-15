@@ -1,4 +1,4 @@
-import { Header, WhatIsGPT3, Features, Possibility } from './pages';
+import { Header, WhatIsGPT3, Features, Possibility, Blog } from './pages';
 import { Brands, CTA } from './components';
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
       <Features />
       <Possibility />
       <CTA />
+      <Blog />
     </div>
   );
 }
